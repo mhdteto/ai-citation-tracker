@@ -1,0 +1,9 @@
+answer_id,citation_url
+uk-1,HTTPS://Registry.example:443/entry/northstar#profile
+uk-1,https://registry.example/entry/northstar#details
+uk-1,https://northstar.example/research/
+uk-3,https://northstar.example/research/
+ca-1,https://registry.example/entry/northstar
+ma-1,https://registre.example/atlas-lab
+ae-1,https://source.example/record?id=1
+ae-1,https://source.example/record?id=2

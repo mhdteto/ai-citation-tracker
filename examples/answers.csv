@@ -1,0 +1,9 @@
+answer_id,collected_on,engine,model,interface,language,market,prompt_id,prompt,answer_text
+uk-1,2026-10-01,Fictional Atlas,demo-1,web,en,United Kingdom,p-en,Which public sources describe Northstar Studio?,Fictional response: Northstar Studio is listed in a fictional registry and has a research page.
+uk-2,2026-10-02,Fictional Atlas,demo-1,web,en,United Kingdom,p-en,Which public sources describe Northstar Studio?,Fictional response: I have no cited source to provide.
+uk-3,2026-10-03,Fictional Atlas,demo-1,web,en,United Kingdom,p-en,Which public sources describe Northstar Studio?,Fictional response: a research page describes the studio.
+ca-1,2026-10-03,Fictional Atlas,demo-1,web,en,Canada,p-en,Which public sources describe Northstar Studio?,Fictional response: a registry contains an entry.
+ma-1,2026-10-04,Fictional Atlas,demo-1,web,fr,Morocco,p-fr,Quelles sources publiques décrivent Atlas Lab ?,Réponse fictive : une fiche de registre mentionne Atlas Lab.
+ma-2,2026-10-05,Fictional Atlas,demo-1,web,fr,Morocco,p-fr,Quelles sources publiques décrivent Atlas Lab ?,Réponse fictive : aucune citation explicite.
+ae-1,2026-10-05,Fictional Meridian,demo-2,api,en,United Arab Emirates,p-en,Which public sources describe Northstar Studio?,Fictional response: see two different query records on a fictional source.
+ae-2,2026-10-06,Fictional Meridian,demo-2,api,en,United Arab Emirates,p-en,Which public sources describe Northstar Studio?,Fictional response: no explicit citations.

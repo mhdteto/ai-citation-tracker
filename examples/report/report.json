@@ -1,0 +1,251 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-01",
+  "method": "Counts describe supplied explicit citation observations only. A citation is a distinct normalized URL within an answer; repeated answers count separately. No inference of uncited use, factual support, authority, search ranking or population-wide visibility. Hostnames are not registrable domains. Groups preserve engine, model, interface, language and market. Sampling and prompt composition can change every rate.",
+  "denominators": {
+    "cited_answer_rate": "cited_answer_count / answer_count (fraction 0..1)",
+    "citations_per_answer": "explicit_citation_count / answer_count",
+    "citations_per_cited_answer": "explicit_citation_count / cited_answer_count; null if denominator is zero"
+  },
+  "groups": [
+    {
+      "engine": "Fictional Atlas",
+      "model": "demo-1",
+      "interface": "web",
+      "language": "en",
+      "market": "Canada",
+      "answer_count": 1,
+      "cited_answer_count": 1,
+      "explicit_citation_count": 1,
+      "cited_answer_rate": 1.0,
+      "citations_per_answer": 1.0,
+      "citations_per_cited_answer": 1.0,
+      "collected_from": "2026-10-03",
+      "collected_to": "2026-10-03",
+      "prompt_ids": [
+        "p-en"
+      ],
+      "top_hostnames": [
+        {
+          "hostname": "registry.example",
+          "citation_count": 1,
+          "answer_count": 1
+        }
+      ]
+    },
+    {
+      "engine": "Fictional Atlas",
+      "model": "demo-1",
+      "interface": "web",
+      "language": "en",
+      "market": "United Kingdom",
+      "answer_count": 3,
+      "cited_answer_count": 2,
+      "explicit_citation_count": 3,
+      "cited_answer_rate": 0.6666666666666666,
+      "citations_per_answer": 1.0,
+      "citations_per_cited_answer": 1.5,
+      "collected_from": "2026-10-01",
+      "collected_to": "2026-10-03",
+      "prompt_ids": [
+        "p-en"
+      ],
+      "top_hostnames": [
+        {
+          "hostname": "northstar.example",
+          "citation_count": 2,
+          "answer_count": 2
+        },
+        {
+          "hostname": "registry.example",
+          "citation_count": 1,
+          "answer_count": 1
+        }
+      ]
+    },
+    {
+      "engine": "Fictional Atlas",
+      "model": "demo-1",
+      "interface": "web",
+      "language": "fr",
+      "market": "Morocco",
+      "answer_count": 2,
+      "cited_answer_count": 1,
+      "explicit_citation_count": 1,
+      "cited_answer_rate": 0.5,
+      "citations_per_answer": 0.5,
+      "citations_per_cited_answer": 1.0,
+      "collected_from": "2026-10-04",
+      "collected_to": "2026-10-05",
+      "prompt_ids": [
+        "p-fr"
+      ],
+      "top_hostnames": [
+        {
+          "hostname": "registre.example",
+          "citation_count": 1,
+          "answer_count": 1
+        }
+      ]
+    },
+    {
+      "engine": "Fictional Meridian",
+      "model": "demo-2",
+      "interface": "api",
+      "language": "en",
+      "market": "United Arab Emirates",
+      "answer_count": 2,
+      "cited_answer_count": 1,
+      "explicit_citation_count": 2,
+      "cited_answer_rate": 0.5,
+      "citations_per_answer": 1.0,
+      "citations_per_cited_answer": 2.0,
+      "collected_from": "2026-10-05",
+      "collected_to": "2026-10-06",
+      "prompt_ids": [
+        "p-en"
+      ],
+      "top_hostnames": [
+        {
+          "hostname": "source.example",
+          "citation_count": 2,
+          "answer_count": 1
+        }
+      ]
+    }
+  ],
+  "answers": [
+    {
+      "answer_id": "ae-1",
+      "collected_on": "2026-10-05",
+      "engine": "Fictional Meridian",
+      "model": "demo-2",
+      "interface": "api",
+      "language": "en",
+      "market": "United Arab Emirates",
+      "prompt_id": "p-en",
+      "prompt": "Which public sources describe Northstar Studio?",
+      "answer_text": "Fictional response: see two different query records on a fictional source.",
+      "citation_urls": [
+        "https://source.example/record?id=1",
+        "https://source.example/record?id=2"
+      ],
+      "citation_count": 2,
+      "unique_hostname_count": 1
+    },
+    {
+      "answer_id": "ae-2",
+      "collected_on": "2026-10-06",
+      "engine": "Fictional Meridian",
+      "model": "demo-2",
+      "interface": "api",
+      "language": "en",
+      "market": "United Arab Emirates",
+      "prompt_id": "p-en",
+      "prompt": "Which public sources describe Northstar Studio?",
+      "answer_text": "Fictional response: no explicit citations.",
+      "citation_urls": [],
+      "citation_count": 0,
+      "unique_hostname_count": 0
+    },
+    {
+      "answer_id": "ca-1",
+      "collected_on": "2026-10-03",
+      "engine": "Fictional Atlas",
+      "model": "demo-1",
+      "interface": "web",
+      "language": "en",
+      "market": "Canada",
+      "prompt_id": "p-en",
+      "prompt": "Which public sources describe Northstar Studio?",
+      "answer_text": "Fictional response: a registry contains an entry.",
+      "citation_urls": [
+        "https://registry.example/entry/northstar"
+      ],
+      "citation_count": 1,
+      "unique_hostname_count": 1
+    },
+    {
+      "answer_id": "ma-1",
+      "collected_on": "2026-10-04",
+      "engine": "Fictional Atlas",
+      "model": "demo-1",
+      "interface": "web",
+      "language": "fr",
+      "market": "Morocco",
+      "prompt_id": "p-fr",
+      "prompt": "Quelles sources publiques décrivent Atlas Lab ?",
+      "answer_text": "Réponse fictive : une fiche de registre mentionne Atlas Lab.",
+      "citation_urls": [
+        "https://registre.example/atlas-lab"
+      ],
+      "citation_count": 1,
+      "unique_hostname_count": 1
+    },
+    {
+      "answer_id": "ma-2",
+      "collected_on": "2026-10-05",
+      "engine": "Fictional Atlas",
+      "model": "demo-1",
+      "interface": "web",
+      "language": "fr",
+      "market": "Morocco",
+      "prompt_id": "p-fr",
+      "prompt": "Quelles sources publiques décrivent Atlas Lab ?",
+      "answer_text": "Réponse fictive : aucune citation explicite.",
+      "citation_urls": [],
+      "citation_count": 0,
+      "unique_hostname_count": 0
+    },
+    {
+      "answer_id": "uk-1",
+      "collected_on": "2026-10-01",
+      "engine": "Fictional Atlas",
+      "model": "demo-1",
+      "interface": "web",
+      "language": "en",
+      "market": "United Kingdom",
+      "prompt_id": "p-en",
+      "prompt": "Which public sources describe Northstar Studio?",
+      "answer_text": "Fictional response: Northstar Studio is listed in a fictional registry and has a research page.",
+      "citation_urls": [
+        "https://northstar.example/research/",
+        "https://registry.example/entry/northstar"
+      ],
+      "citation_count": 2,
+      "unique_hostname_count": 2
+    },
+    {
+      "answer_id": "uk-2",
+      "collected_on": "2026-10-02",
+      "engine": "Fictional Atlas",
+      "model": "demo-1",
+      "interface": "web",
+      "language": "en",
+      "market": "United Kingdom",
+      "prompt_id": "p-en",
+      "prompt": "Which public sources describe Northstar Studio?",
+      "answer_text": "Fictional response: I have no cited source to provide.",
+      "citation_urls": [],
+      "citation_count": 0,
+      "unique_hostname_count": 0
+    },
+    {
+      "answer_id": "uk-3",
+      "collected_on": "2026-10-03",
+      "engine": "Fictional Atlas",
+      "model": "demo-1",
+      "interface": "web",
+      "language": "en",
+      "market": "United Kingdom",
+      "prompt_id": "p-en",
+      "prompt": "Which public sources describe Northstar Studio?",
+      "answer_text": "Fictional response: a research page describes the studio.",
+      "citation_urls": [
+        "https://northstar.example/research/"
+      ],
+      "citation_count": 1,
+      "unique_hostname_count": 1
+    }
+  ]
+}

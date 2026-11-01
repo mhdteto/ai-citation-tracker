@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+my-report/
+my-answers.csv
+my-citations.csv

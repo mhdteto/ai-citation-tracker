@@ -1,0 +1,8 @@
+"answer_id","citation_url","hostname"
+"w2-ae-1","https://source.example/record?id=1","source.example"
+"w2-ae-1","https://source.example/record?id=2","source.example"
+"w2-ma-1","https://registre.example/atlas-lab","registre.example"
+"w2-uk-1","https://northstar.example/research/","northstar.example"
+"w2-uk-1","https://registry.example/entry/northstar","registry.example"
+"w2-uk-2","https://registry.example/entry/northstar","registry.example"
+"w2-uk-3","https://northstar.example/research/","northstar.example"

@@ -1,0 +1,5 @@
+"engine","model","interface","language","market","collected_from","collected_to","answer_count","cited_answer_count","explicit_citation_count","cited_answer_rate","citations_per_answer","citations_per_cited_answer"
+"Fictional Atlas","demo-1","web","en","Canada","2026-10-17","2026-10-17","1","0","0","0.0","0.0",""
+"Fictional Atlas","demo-1","web","en","United Kingdom","2026-10-15","2026-10-17","3","3","4","1.0","1.3333333333333333","1.3333333333333333"
+"Fictional Atlas","demo-1","web","fr","Morocco","2026-10-18","2026-10-19","2","1","1","0.5","0.5","1.0"
+"Fictional Meridian","demo-2","api","en","United Arab Emirates","2026-10-19","2026-10-20","2","1","2","0.5","1.0","2.0"
