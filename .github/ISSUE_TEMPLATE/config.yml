@@ -1,0 +1,15 @@
+{
+  "blank_issues_enabled": false,
+  "contact_links": [
+    {
+      "name": "How the tools fit together",
+      "url": "https://github.com/mhdteto/authority-architecture-system",
+      "about": "Start with the method and choose the relevant tool."
+    },
+    {
+      "name": "Reproduce the fictional workflow",
+      "url": "https://github.com/mhdteto/authority-architecture-system/tree/main/examples/fictional-workflow",
+      "about": "Inspect public inputs, exact commands and actual generated reports."
+    }
+  ]
+}

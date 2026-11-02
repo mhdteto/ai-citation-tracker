@@ -1,0 +1,47 @@
+{
+  "name": "Feature or workflow request",
+  "description": "Describe a concrete user problem and the change that would help.",
+  "title": "[Feature]: ",
+  "body": [
+    {
+      "type": "textarea",
+      "id": "problem",
+      "attributes": {
+        "label": "What task is difficult today?"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "proposal",
+      "attributes": {
+        "label": "Proposed behavior and a concrete example"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "alternatives",
+      "attributes": {
+        "label": "Alternatives or current workaround"
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "scope",
+      "attributes": {
+        "label": "Relevant markets, languages or output formats"
+      },
+      "validations": {
+        "required": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Source, example or methodology proposal",
+  "description": "Propose a public source, a fictional example or a documented methodological correction.",
+  "title": "[Source]: ",
+  "body": [
+    {
+      "type": "markdown",
+      "attributes": {
+        "value": "A source proposal is a review candidate, not an endorsement or a request for a guaranteed backlink. Use published public URLs or explicitly fictional examples."
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "reference",
+      "attributes": {
+        "label": "Public source URL or proposed fictional example"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "scope",
+      "attributes": {
+        "label": "Specific claim or method this can support"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "input",
+      "id": "market",
+      "attributes": {
+        "label": "Market and language"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "provenance",
+      "attributes": {
+        "label": "Publisher, access date, relationship and known limits"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "change",
+      "attributes": {
+        "label": "Suggested repository file or change"
+      },
+      "validations": {
+        "required": false
+      }
+    }
+  ]
+}

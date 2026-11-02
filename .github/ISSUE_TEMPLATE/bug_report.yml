@@ -1,0 +1,74 @@
+{
+  "name": "Bug or documentation error",
+  "description": "Report a reproducible software problem or an incorrect instruction.",
+  "title": "[Bug]: ",
+  "body": [
+    {
+      "type": "markdown",
+      "attributes": {
+        "value": "Use a minimal public or fictional example. Do not include private client records, credentials or personal data."
+      }
+    },
+    {
+      "type": "input",
+      "id": "version",
+      "attributes": {
+        "label": "Release tag or commit SHA"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "input",
+      "id": "environment",
+      "attributes": {
+        "label": "Python version and operating system",
+        "description": "For documentation-only issues, identify the page or file instead."
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "steps",
+      "attributes": {
+        "label": "Exact command or steps to reproduce"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "expected",
+      "attributes": {
+        "label": "Expected behavior"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "actual",
+      "attributes": {
+        "label": "Actual behavior and minimal input"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "logs",
+      "attributes": {
+        "label": "Relevant error output"
+      },
+      "validations": {
+        "required": false
+      }
+    }
+  ]
+}

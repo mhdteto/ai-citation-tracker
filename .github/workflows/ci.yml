@@ -17,3 +17,4 @@ jobs:
       - run: python tracker.py --answers examples/answers.csv --citations examples/citations.csv --as-of 2026-11-01 --output examples/report
       - run: python tracker.py --answers examples/window-two-answers.csv --citations examples/window-two-citations.csv --as-of 2026-11-01 --output examples/window-two-report
       - run: git diff --exit-code -- examples/report examples/window-two-report
+      - run: python3 tools/verify_connected_example.py
